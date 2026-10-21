@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Rakean Pulia Gumelar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#pengalaman">Pengalaman</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <li><a href="#minat">Hobi</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <!-- Judul halaman dan foto profil -->
+    <header>
+      <h1 class="text-center">Portofolio Pribadi</h1>
+      <p class="text-center subjudul">Mahasiswa Informatika, Universitas Sebelas April</p>
+      <div class="text-center">
+        <img src="profil.jpg" alt="Foto profil Rakean Pulia Gumelar" width="150" height="150">
+      </div>
+    </header>
+
+    <main>
+
+      <!-- Tentang saya -->
+      <section id="tentang">
+        <h2 class="text-center">Tentang Saya</h2>
+        <p style="font-size:18px;">
+          Saya <strong>Rakean Pulia Gumelar</strong>, mahasiswa <em>Informatika</em>
+          di Universitas Sebelas April. Saya tertarik pada pengembangan web dan terus
+          mengasah kemampuan pemrograman melalui tugas dan proyek perkuliahan.
+        </p>
+
+        <!-- Kutipan -->
+        <blockquote>
+          "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+          <br>— Alan Turing, Computing Machinery and Intelligence (1950)
+        </blockquote>
+      </section>
+
+      <!-- Pengalaman (isi baris diisi oleh JavaScript) -->
+      <section id="pengalaman">
+        <h2 class="text-center">Pengalaman</h2>
+        <div class="tabel-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Posisi</th>
+                <th scope="col">Organisasi</th>
+                <th scope="col">Tahun</th>
+              </tr>
+            </thead>
+            <tbody id="isi-pengalaman"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Proyek (kartu diisi oleh JavaScript) -->
+      <section id="proyek">
+        <h2 class="text-center">Proyek</h2>
+        <div class="dua-kolom" id="daftar-proyek"></div>
+      </section>
+
+      <!-- Hobi dan target belajar -->
+      <section id="minat">
+        <h2 class="text-center">Minat dan Pengembangan Diri</h2>
+        <div class="dua-kolom">
+
+          <div class="kartu">
+            <h3>Hobi</h3>
+            <ul>
+              <li>Lari</li>
+              <li>Mendaki gunung</li>
+              <li>Menonton film</li>
+            </ul>
+          </div>
+
+          <div class="kartu">
+            <h3>Target Belajar</h3>
+            <ol>
+              <li>Menguasai dasar-dasar HTML</li>
+              <li>Mempelajari CSS untuk mengatur tampilan halaman</li>
+              <li>Mempelajari JavaScript untuk menambah interaksi</li>
+            </ol>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Audio dan video -->
+      <section id="media">
+        <h2 class="text-center">Media</h2>
+
+        <h3>Lagu Favorit</h3>
+        <audio controls>
+          <source src="lagu.mp3" type="audio/mpeg">
+          Browser Anda tidak mendukung pemutar audio.
+        </audio>
+
+        <h3>Video Karya</h3>
+        <iframe width="640" height="360"
+                src="https://www.youtube.com/embed/AlCLzlE69QA"
+                title="Video karya"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+      </section>
+
+      <!-- Link media sosial -->
+      <section id="kontak">
+        <h2 class="text-center">Temukan Saya</h2>
+        <p class="kontak">
+          <a href="https://github.com/RkeanPG" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.instagram.com/rakean_pg" target="_blank" rel="noopener">Instagram</a>
+        </p>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>&copy; 2026 Portofolio Pribadi, Rakean Pulia Gumelar</footer>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
